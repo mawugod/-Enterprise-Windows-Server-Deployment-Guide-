@@ -7,6 +7,3 @@ NB: You will go through the same process to create the ‘Internal’ and ‘Ext
 The external is already created for you. You will only need to change the name to suit your preference.
    - **Internal Network** (e.g., `Lab-Internal`)  
    - **External Network** (e.g., `Lab-External`).
-<p align="center">
-  <img src=" " alt="">
-</p>
