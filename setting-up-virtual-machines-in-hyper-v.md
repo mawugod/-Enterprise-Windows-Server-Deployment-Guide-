@@ -7,4 +7,3 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/07d1a302-02b5-439b-b55b-66a0ada3420b" alt="">
 </p>
-![Alt text](https://github.com/user-attachments/assets/07d1a302-02b5-439b-b55b-66a0ada3420b)
