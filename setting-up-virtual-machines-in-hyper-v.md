@@ -1,9 +1,46 @@
-## **Create Virtual Switches** 
-
-1. Open **Hyper-V Manager** → **Virtual Switch Manager**.  
-2. Create two virtual switches:  
-   - **Internal Network** (e.g., `Lab-Internal`)  
-   - **External Network** (e.g., `Lab-External`).
+### ** Deploy Virtual Machines**
+1. Click ‘Quick Create’, which opens a pop-up dialog box ‘Create Virtual Machine’.
+2.	Click on ‘Local installation source’
+3.	Click on ‘Chage Installation Source’ and select the right OS.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/07d1a302-02b5-439b-b55b-66a0ada3420b" alt="">
+  <img src="https://github.com/user-attachments/assets/502527cd-7bca-48aa-9cd3-903b3e3f497e" alt="">
 </p>
+4. After selecting OS, click on ‘Create Virtual Machine’ as indicated  below.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8e6366de-4f85-4d6c-937d-275285af67b4" alt="">
+</p>
+5.	The image indicates that you have created the OS.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/851c92d6-8b1d-4bc4-9037-88291e1e7260" alt="">
+</p>
+6.	Close the ‘Create Virtual Machine’ pop-up box. Rename the VM to your desired name by right clicking and clicking Rename.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3ca19c27-2594-48db-b6d5-7284d35c9062" alt="">
+</p>
+Go through the above method to install all the OS's[DC01, INFRA01, RDS01, CL01] needed.
+You might want to change the specification of the OS. In that regard, click on the VM and go to ‘Settings’. The various options are as below.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1f6e78b2-1f6f-49c4-a320-384a3a82c352" alt="">
+</p>
+
+<p align="center">
+  <img src="" alt="">
+</p>
+
+<p align="center">
+  <img src="" alt="">
+</p>
+
+<p align="center">
+  <img src="" alt="">
+</p>
+
+<p align="center">
+  <img src="" alt="">
+</p>
+
+<p align="center">
+  <img src="" alt="">
+</p>
+
