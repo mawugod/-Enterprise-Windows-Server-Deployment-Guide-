@@ -2,7 +2,7 @@
 
 ## 9.1 Disabling Control Panel for Marketing/Research
 1. Open Group Policy Management Console (GPMC) from DC01
-2. Expand ‘Forest..’ Domains enterpriselab.local
+2. Expand ‘Forest..’-> Domains -> enterpriselab.local
 3. Right click Group Policy Object and select New
 
 <p align="center">
@@ -73,10 +73,14 @@ Enter the name of the policy. Eg. ‘DisableUSBStorage4Managers_Market&Reseach�
   <img src="https://github.com/user-attachments/assets/d151bee2-59a7-4524-8bf0-3e2973a5e47b" alt="">
 </p>
 
+5. Close and go back to 'Group Policy Management' console, right-click on the individual OUs[Research and Marketing] and select the 'Link an exisiting GPO' them to the GPO created.
+
+
 ## 9.4 Creating GPO to Map a Network Drive Containing Shared Folders on DC01
 ### 9.4.1 Step 1: Create a Shared Folder on DC01
 NB: You may not want to use your C: Drive to create this for security reasons.
 Also, I have already created security groups within the various OUs’ AND added the respective users to these groups.  
+To find out how to create users and associate them to security groups, check out this [link](https://github.com/mawugod/-Enterprise-Windows-Server-Deployment-Guide-/blob/main/5c.Creating-Users-and-Security-Group.md) 
 1.	Create a folder in the desired location.  
 2.	Right-click on the Shared folder and click on ‘Properties’, ‘Advanced Sharing’, check the ‘Share the folder’ checkbox.  
 3.	Below it is a ‘Permission’, click on it and add the necessary permission and Group needed to access that folder. Allow Full Control to IT team  (or a more restricted group like Domain Users or Marketing,etc.)  
